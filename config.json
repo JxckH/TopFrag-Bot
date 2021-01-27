@@ -1,0 +1,79 @@
+{
+    "token":"ODA0MDIyNzAyMjQyNjYwMzUz.YBGSfg.q8ZRVC7nPmfEl9rF3eXZDeH5tSs",
+    "prefix": "!"
+}
+	},
+	"reactions": {
+		"enabled": true,
+		"types": [
+			{
+				"regex": "hello|hi|hiya|heyo|howdy|sup|hola|hallo|bonjour|salut|ciao|konnichiwa",
+				"emotes": ["👋", "🇭", "🇮"],
+				"fullWord": true,
+				"checkPrevious": 5
+			},
+			{
+				"regex": "goodbye|bye|cya|gtg",
+				"emotes": ["👋", "🇧", "🇾", "🇪"],
+				"fullWord": true,
+				"checkPrevious": 5
+			},
+			{
+				"regex": "pog",
+				"emotes": "660203799377608704",
+				"checkPrevious": 3
+			},
+			{
+				"regex": "l[ou]l",
+				"emotes": "660205635777986571",
+				"checkPrevious": 3
+			},
+			{
+				"regex": "sleep|\\bz+\\b",
+				"emotes": "660205776744480789",
+				"checkPrevious": 4
+			},
+			{
+				"regex": "wrenchbot",
+				"messages": "???",
+				"checkPrevious": 10
+			}
+		]
+	},
+	"status": {
+		"enabled": true,
+		"method": "repeat",
+		"timeout": 30,
+		"types": [
+			{
+				"activity": "WATCHING",
+				"name": "you."
+			},
+			{
+				"activity": "WATCHING",
+				"name": "%total_servers% servers."
+			},
+			{
+				"activity": "PLAYING",
+				"name": "a game."
+			},
+			{
+				"activity": "LISTENING",
+				"name": "%prefix%help"
+			},
+			{
+				"activity": "LISTENING",
+				"name": "everyone."
+			}
+		]
+	},
+	"performance": {
+		"cache": {
+			"clearTemp": 60,
+			"message": {
+				"maxSize": 50000,
+				"lifetime": 604800
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "discord.js": "^12.4.1"
+  },
+  "name": "TopFrag Network",
+  "version": "1.0.0",
+  "description": "Custom Discord Bot made by JxckH",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "arisamiga",
+  "license": "Apache-2.0"
+}
